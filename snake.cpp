@@ -28,7 +28,7 @@ const int grid_height = 30;
 
 int game_speed = 150; // Adjusted Default speed
 int selected_difficulty = 1;  // Default difficulty level
-const int speeds[] = {100, 85, 70, 55, 40};  // Easy to Insane
+const int speeds[] = {150, 85, 70, 55, 20};  // Easy to Insane
 
 void initGrid(int x, int y) {
     gridX = x;
@@ -57,6 +57,11 @@ void drawGrid() {
 
 
 void randomFood() {
+    if (food) {
+        foodX = rand() % gridX;
+        foodY = rand() % gridY;
+        food = false;
+    }
     if (food) {
         foodX = rand() % gridX;
         foodY = rand() % gridY;
@@ -100,7 +105,10 @@ void drawFood() {
 
     glColor3f(red, green, blue);
     glRectd(foodX, foodY, foodX + 1, foodY + 1);
+
 }
+
+
 
 void keyboard(int key, int, int) {
     if (!difficulty_selected) return;

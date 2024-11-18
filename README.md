@@ -65,7 +65,10 @@ A two-player snake game built with **OpenGL** and **GLUT**. Players compete to c
 ## Screenshots
 
 - Difficulty selection menu
+
+![Difficulty](./assets/difficulty-level.png)
 - Vibrant grid with gradient snakes
+![Game](./assets/game.png)
 - Real-time scoreboard
 
 ## Future Enhancements
