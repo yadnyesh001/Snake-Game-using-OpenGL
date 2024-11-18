@@ -53,15 +53,11 @@ A two-player snake game built with **OpenGL** and **GLUT**. Players compete to c
    ```bash
    git clone https://github.com/yadnyesh001/Snake-Game-using-OpenGL
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd snake-battle-opengl
-   ```
-3. Compile the code:
+2. Compile the code:
    ```bash
    g++ -o snake-game main.cpp -lGL -lGLU -lglut
    ```
-4. Run the game:
+3. Run the game:
    ```bash
    ./snake-game
    ```
