@@ -51,7 +51,7 @@ A two-player snake game built with **OpenGL** and **GLUT**. Players compete to c
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/snake-battle-opengl.git
+   git clone https://github.com/yadnyesh001/Snake-Game-using-OpenGL
    ```
 2. Navigate to the project directory:
    ```bash
